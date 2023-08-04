@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Карта</title>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+<!-- Добавляем список адресов с атрибутами "data-objectid"! Это обязательно. Прошлые просто копируем и вставляем другие номера "data-objectid"  -->
+<ul>
+<li data-objectid="1">Париж</li>
+<li data-objectid="2">Череповец</li>
+<li data-objectid="3">Гамбург</li>
+</ul>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+    <script src="main.js"></script> 
+</body>
+
+</html>

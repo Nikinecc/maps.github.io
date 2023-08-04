@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+.map {
+    width: 500px;
+    height: 500px;
+}
+
+[class*="ground-pane"] {
+    filter: grayscale(100%);
+}
+
+[data-objectId]:hover {
+    color: red;
+    cursor: pointer;
+}
